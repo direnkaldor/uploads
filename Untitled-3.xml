@@ -36,7 +36,7 @@
                 <![CDATA[ This is a caption for the main media ]]>
             </media:description>
             <media:credit role="photographer">Frank Lockett</media:credit>
-            <test>local</test>
+            <test></test>
         </item>
         <item>
             <title>
