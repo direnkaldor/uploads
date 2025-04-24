@@ -1,0 +1,214 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:pp="https://www.pugpig.com/example-feed/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title>Example Pugpig Article RSS Feed</title>
+        <link>https://www.pugpig.com/example-feed.xml</link>
+        <description>The latest news from Pugpig.com</description>
+        <lastBuildDate>Tue, 08 Apr 2025 09:14:58 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Pugpig RSS Feed Generator v1.2 (WordPress 6.4.2)</generator>
+        <language>en</language>
+        <ttl>5</ttl>
+        <copyright>Copyright 2025 Pugpig. All rights reserved.</copyright>
+        <item>
+            <title>
+                <![CDATA[ This Article Contains Pugpig Advanced Inline Elements & Simple Metadata Structure ]]>
+            </title>
+            <link>https://www.pugpig.com/permalink-structure</link>
+            <guid isPermalink="false">7000225893</guid>
+            <description>
+                <![CDATA[ This article contains all Pugpig's advanced inline elements to illustrate the markup needed to display elements such as carousels, videos, sliders etc. It also serves as an example of minimal field structure. ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[ <h2 class="wp-block-heading">Example of Inline Image</h2><figure class="pp-media"><img decoding="async" class="pp-media__image" alt="I am the alt title" src="https://www.example.com/path/to/image/filename.jpg"><figcaption class="pp-media__caption">Caption of image. I am optional</figcaption><p class="copyright pp-media__credit">Credit</p></figure><h2 class="wp-block-heading">Example of Inline Gallery</h2><figure data-image-group="group-2" class="pp-media pp-media--gallery"><img decoding="async" class="pp-media__image" alt="I am the alt title of example 1" src="https://www.example.com/path/to/image/filename-1.jpg"><figcaption class="copyright pp-media__caption">caption example 1</figcaption></figure><figure data-image-group="group-2" class="pp-media pp-media--gallery is-hidden"><img decoding="async" class="pp-media__image" alt="I am the alt title of example 2" src="https://www.example.com/path/to/image/filename-2.jpg"><figcaption class="copyright pp-media__caption">caption example 2</figcaption></figure><figure data-image-group="group-2" class="pp-media pp-media--gallery is-hidden"><img decoding="async" class="pp-media__image" alt="I am the alt title of example 3" src="https://www.example.com/path/to/image/filename-3.jpg"><figcaption class="copyright pp-media__caption">caption example 3</figcaption></figure><h2 class="wp-block-heading">Example of Inline Audio</h2><audio src="XXX" controls></audio><h2 class="wp-block-heading">Example if Inline Video</h2><figure data-image-nozoom="" class="pp-media pp-media--video"><div class="pugpig-video pugpig-mp4"><video class="pugpig-video__player player-direct" controls><source src="https://www.yourdomain.com/great-video.mp4"></source></video><div id="pugpig-video-placholder" onclick="pugpigVideoPlayDirect(this)"><img decoding="async" id="pugpig-video-poster" class="pugpig-video__poster" src="https://www.yourdomain.com/great-video-placeholder.png" alt="Suitable alt title"><button id="pugpig-video-preroll-play" class="videoAdUiPlayButton" aria-label="Play"><svg width="72" height="72" viewbox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="54" cy="56" r="48" fill="black" fill-opacity="0.3"></circle><path d="M76.986 51.0389L43.986 32.4209C42.9083 31.805 41.6867 31.4856 40.4455 31.4951C39.2042 31.5046 37.9877 31.8426 36.9195 32.4749C35.8788 33.0701 35.0143 33.9301 34.4136 34.9676C33.8129 36.0051 33.4975 37.1831 33.4995 38.3819V75.6179C33.4975 76.8167 33.8129 77.9947 34.4136 79.0322C35.0143 80.0697 35.8788 80.9297 36.9195 81.5249C37.9878 82.1569 39.2043 82.4948 40.4455 82.5043C41.6866 82.5138 42.9082 82.1945 43.986 81.5789L76.986 62.9609C78.0503 62.3714 78.9373 61.5076 79.555 60.4593C80.1726 59.4111 80.4984 58.2166 80.4984 56.9999C80.4984 55.7832 80.1726 54.5887 79.555 53.5405C78.9373 52.4923 78.0503 51.6285 76.986 51.0389Z" fill="white"></path></svg></button></div><p class="pugpig-video__offline">You will need internet connection to view this video</p></div></figure><h3 class="wp-block-heading">Youtube</h3><figure data-image-nozoom="" class="pp-media pp-media--video"><div class="pugpig-video pugpig-youtube" data-video-url="https://www.youtube.com/embed/ID" data-video-id="ID"><div id="video-player-ID" class="pugpig-video__player is-hidden"></div><img decoding="async" class="pugpig-video__poster" src="https://www.example.com/path/to/image/filename.jpg" alt="Title of image"><p class="pugpig-video__offline">You will need internet connection to view this video</p></div></figure><h3 class="wp-block-heading">Vimeo</h3><figure data-image-nozoom="" class="pp-media pp-media--video"><div class="pugpig-video pugpig-vimeo" data-video-url="https://player.vimeo.com/video/ID"><div class="pugpig-video__player is-hidden"></div><img decoding="async" class="pugpig-video__poster" src="https://www.example.com/path/to/image/filename.jpg" alt="Title of image"></p><p class="pugpig-video__offline">You will need internet connection to view this video</p></div></figure><h2 class="wp-block-heading">Example Inline Slider</h2><section class="pp-article__slider"><div class="pp-slider" data-swipeable><div class="pp-slider__wrapper"><form><input type="radio" name="slides" id="slide_1" checked><input type="radio" name="slides" id="slide_2"><input type="radio" name="slides" id="slide_3"><ul class="pp-slider__slides"><li><figure class="pp-media pp-media--slider-image" data-image-nozoom><img decoding="async" class="pp-media__image" alt="Title of image" src="https://www.example.com/path/to/image/filename.jpg"><figcaption class="pp-media__caption">Optional caption</figcaption></figure><div class="pp-slider__slides__body"><h4>Slide 1 Title</h4><p>Several paragraphs can go here</p><p>This can include in line images</p><figure class="pp-media"><img decoding="async" class="pp-media__image" alt="Title of image" src="https://www.example.com/path/to/image/filename.jpg"><figcaption class="pp-media__caption">Optional caption</figcaption></figure><p>More text is allow</p></div></li><li><figure class="pp-media pp-media--slider-image" data-image-nozoom><img decoding="async" class="pp-media__image" alt="Title of image" src="https://www.example.com/path/to/image/filename.jpg"><figcaption class="pp-media__caption">Optional caption</figcaption></figure><div class="pp-slider__slides__body"><h4>Slide 2 Title</h4><p>Several paragraphs can go here</p><p>This can include inline images</p><figure class="pp-media"><img decoding="async" class="pp-media__image" alt="Title of image" src="https://www.example.com/path/to/image/filename.jpg"><figcaption class="pp-media__caption">Optional caption</figcaption></figure><p>More text is allow</p><p>More images are allowed too</p><figure class="pp-media"><img decoding="async" class="pp-media__image" alt="Title of image" src="https://www.example.com/path/to/image/filename.jpg"><figcaption class="pp-media__caption">Optional caption</figcaption></figure></div></li><li><div class="pp-slider__slides__body"><h4>Slide 3 Title</h4><p>Several paragraphs can go here</p></div></li></ul><div class="pp-slider__arrows"><label for="slide_1"></label><label for="slide_2"></label><label for="slide_3"></label><label class="goto-first" for="slide_1"></label><label class="goto-last" for="slide_3"></label></div></form></div></div></section><h2 class="wp-block-heading">Example Inline Boxout</h2><section class="pp-article__boxout"><div id="boxout_1" class="pp-boxout" style="background-color:#606060;color:#eeee22;"><figure class="pp-media"><img decoding="async" class="pp-media__image" alt="Title of image" src="https://www.example.com/path/to/image/filename.jpg"><figcaption class="pp-media__caption">Optional caption</figcaption><p class="copyright pp-media__credit">Optional credit</p></figure><div class="pp-boxout__body"><h4>Boxout Title</h4><p>Several paragraphs can go here</p></div></div></section><p></p> ]]>
+            </content:encoded>
+            <category>
+                <![CDATA[ News ]]>
+            </category>
+            <dc:creator>
+                <![CDATA[ Adam Durrant ]]>
+            </dc:creator>
+            <pubDate>Tue, 08 Apr 2025 09:49:03 +0000</pubDate>
+            <updated>Tue, 08 Apr 2025 10:39:03 +0000</updated>
+            <media:content url="https://www.pugpig.com/wp-content/uploads/main-media.png" width="1040px"
+                type="image/jpeg" />
+            <media:description>
+                <![CDATA[ This is a caption for the main media ]]>
+            </media:description>
+            <media:credit role="photographer">Frank Lockett</media:credit>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ This Article Contains Custom Rich Metadata ]]>
+            </title>
+            <link>https://www.pugpig.com/permalink-structure-2</link>
+            <guid isPermalink="false">7008286294</guid>
+            <pubDate>Tue, 08 Apr 2025 09:49:03 +0000</pubDate>
+            <description>
+                <![CDATA[ This Article Contains Custom Namespaced Rich Metadata to help illustrate common use cases for using a custom namespace. ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[ <p>Lorem ipsum dolor sit amet ex ante. Sapien turpis ac dapibus class nam netus suspendisse magna augue quisque etiam. Lobortis donec suscipit in sociosqu risus nam nisl semper. Condimentum morbi integer ac aliquam fusce ridiculus ultricies magna iaculis. Augue donec tellus mus suspendisse ridiculus justo.</p><blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p><strong>Lorem ipsum dolor sit amet et euismod eu dictum efficitur quam quisque per praesent mollis</strong></p></blockquote><cite>blockquote citation</cite></blockquote><p>Pulvinar iaculis suscipit tellus felis congue dictumst maecenas. Dictum posuere phasellus gravida integer natoque interdum a justo facilisis <a href="/">tempor parturient</a>. Felis sapien dictumst nascetur ante tempor. Morbi mus nulla sed rhoncus non volutpat elementum lacinia molestie metus quisque. Morbi pellentesque ad ligula himenaeos mi hendrerit. Torquent sapien consectetur porttitor vel curabitur nascetur egestas blandit. Inceptos aliquet nisi porttitor hac massa porta felis finibus. Aptent letius velit egestas amet pretium diam laoreet.</p><h2 class="wp-block-heading">Lorem ipsum dolor sit</h2><p>Accumsan curabitur habitant eleifend odio suscipit efficitur arcu. Nisl scelerisque class velit laoreet fames cubilia odio eros integer consectetuer magna. Ridiculus penatibus pretium vel fringilla placerat faucibus mattis. Sollicitudin semper curabitur conubia luctus lectus venenatis amet ipsum velit. Taciti pulvinar cubilia turpis ridiculus vehicula amet aenean senectus magna. Consectetuer placerat taciti ullamcorper natoque mauris faucibus bibendum convallis. Mauris finibus litora risus suscipit laoreet fames id vestibulum curae.</p><ul class="wp-block-list"><li>Lorem ipsum dolor sit amet</li><li>euismod eu dictum efficitur </li><li>quam quisque per praesent mollis</li><li>euismod eu dictum efficitur quam quisque per praesent mollis</li></ul><p>Efficitur molestie id ultrices mollis habitasse dui ullamcorper lectus feugiat vulputate. Dignissim nibh neque nullam morbi faucibus ac malesuada porttitor platea. Mus mollis lectus quisque sagittis ac efficitur consequat. Tempus malesuada enim metus nec lectus hac dolor nunc. Mus egestas cras nulla libero a praesent massa placerat suspendisse. Cursus proin sodales himenaeos gravida vestibulum eleifend quam. Finibus accumsan porttitor est facilisi pulvinar velit condimentum nulla. Pellentesque tincidunt eros velit augue non consequat cursus vestibulum.</p><hr class="wp-block-separator has-alpha-channel-opacity"/><p>Ex sit maecenas habitant elementum torquent taciti non consequat dolor. Mi montes ullamcorper tempor vel congue lorem felis consectetuer aliquam ac fusce. Pellentesque nunc nostra habitasse ante maximus blandit phasellus tellus elementum. Consequat sem taciti ultricies ullamcorper duis arcu risus pharetra. Conubia condimentum arcu fames tellus pellentesque sit. Interdum lacinia aliquam diam pellentesque curae leo sem montes dignissim.</p> ]]>
+            </content:encoded>
+            <pp:categories>
+                <category>
+                    <name>News</name>
+                    <slug>news</slug>
+                    <colour>#0000FF</colour>
+                </category>
+                <category>
+                    <name>Politics</name>
+                    <slug>politics</slug>
+                    <colour>#0000FF</colour>
+                </category>
+            </pp:categories>
+            <pp:authors>
+                <author>
+                    <name>
+                        <![CDATA[ Jane Boppert ]]>
+                    </name>
+                    <bio>
+                        <![CDATA[ Lorem ipsum dolor sit amet tristique ad mus. Phasellus consectetur dapibus sagittis viverra netus porta. ]]>
+                    </bio>
+                    <pp:headshot>https://www.pugpig.com/authors/jane-boppert.png</pp:headshot>
+                </author>
+                <author>
+                    <pp:name>
+                        <![CDATA[ Adam Durrant ]]>
+                    </pp:name>
+                    <pp:bio>
+                        <![CDATA[ Lorem ipsum dolor sit amet tristique ad mus. Phasellus consectetur dapibus sagittis viverra netus porta. ]]>
+                    </pp:bio>
+                    <pp:headshot>https://www.pugpig.com/authors/adam-durrant.png</pp:headshot>
+                </author>
+            </pp:authors>
+            <pubDate>Tue, 08 Apr 2025 09:49:03 +0000</pubDate>
+            <updated>Tue, 08 Apr 2025 10:39:03 +0000</updated>
+            <media:content url="https://www.pugpig.com/wp-content/uploads/main-media.png" width="1040px"
+                type="image/jpeg" />
+            <media:description>
+                <![CDATA[ This is a caption for the main media ]]>
+            </media:description>
+            <media:credit role="photographer">Frank Lockett</media:credit>
+            <pp:template>article-layout-02</pp:template>
+            <pp:analytics_sections>food</pp:analytics_sections>
+            <pp:analytics_pubtime>10 AM</pp:analytics_pubtime>
+            <pp:sponsor>
+                <name>Microsoft</name>
+                <logo>https://www.pugpig.com/sponsors/images/microsoft.png</logo>
+            </pp:sponsor>
+            <pp:comments comments="true" />
+        </item>
+        <item>
+            <title>
+                <![CDATA[ This Article Contains Example Inline Audio and Dedicated Audio Element ]]>
+            </title>
+            <link>https://www.pugpig.com/permalink-structure-3</link>
+            <guid isPermalink="false">7205216294</guid>
+            <description>
+                <![CDATA[ This article contains an audio element to illustrate the markup needed to send audio. ]]>
+            </description>
+            <audio src="https://audio.pugpig.com/audio-file.mp3" type="audio/mpeg" />
+            <content:encoded>
+                <![CDATA[ <p>This article contains an audio tag and an example of inline audio. </p><h2 class="wp-block-heading">Example inline audio content</h2><audio src="https://file-examples.com/wp-content/storage/2017/11/file_example_MP3_700KB.mp3" controls></audio><p>Inline audio is absolutely fine however, sending audio using a dedicated RSS element gives Pugpig more flexibility to position the media in more areas of the article template such as the header group. </p><p>Inline audio will be placed in the body contents and Pugpig won&#8217;t be able to extract it to move it to a more prominent location. Typically clients send audio as a dedicated RSS element when the audio is a transcription of the article contents.</p><p></p> ]]>
+            </content:encoded>
+            <category>News</category>
+            <category>Politics</category>
+            <dc:creator>
+                <![CDATA[ Adam Durrant ]]>
+            </dc:creator>
+            <pubDate>Tue, 08 Apr 2025 09:49:03 +0000</pubDate>
+            <updated>Tue, 08 Apr 2025 10:39:03 +0000</updated>
+            <media:content url="https://www.pugpig.com/wp-content/uploads/main-media.png" width="1040px"
+                type="image/jpeg" />
+            <media:description>
+                <![CDATA[ This is a caption for the main media ]]>
+            </media:description>
+            <media:credit role="photographer">Frank Lockett</media:credit>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ This Article Contains an Example of Video Main Media ]]>
+            </title>
+            <link>https://www.pugpig.com/permalink-structure-4</link>
+            <guid isPermalink="false">7005256294</guid>
+            <description>
+                <![CDATA[ This article contains an video as main media together with thumbnail and media category to tell Pugpig it should be treated as a video ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[ <p>This article contains an video as main media together with thumbnail and media category to tell Pugpig it should be treated as a video</p> ]]>
+            </content:encoded>
+            <category>News</category>
+            <category>Politics</category>
+            <dc:creator>
+                <![CDATA[ Adam Durrant ]]>
+            </dc:creator>
+            <pubDate>Tue, 08 Apr 2025 09:49:03 +0000</pubDate>
+            <updated>Tue, 08 Apr 2025 10:39:03 +0000</updated>
+            <media:content url="https://www.pugpig.com/video-file.mp4" type="video/mp4" duration="178" bitrate="2000"
+                height="720" width="1280" fileSize="47727787">
+                <media:thumbnail url="https://www.pugpig.com/video-thumbnail.jpg" />
+                <media:category>video</media:category>
+            </media:content>
+            <media:description>
+                <![CDATA[ This is a caption for the main media ]]>
+            </media:description>
+            <media:credit role="photographer">John Smith</media:credit>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ This Article Contains an Example of Image Gallery Main Media ]]>
+            </title>
+            <link>https://www.pugpig.com/permalink-structure-5</link>
+            <guid isPermalink="false">7005256214</guid>
+            <description>
+                <![CDATA[ This article contains a gallery as its main media ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[ <p>This article contains a gallery as its main media - note that this is not supported immediately out the box and requires some custom development</p> ]]>
+            </content:encoded>
+            <category>News</category>
+            <category>Politics</category>
+            <dc:creator>
+                <![CDATA[ Adam Durrant ]]>
+            </dc:creator>
+            <pubDate>Tue, 08 Apr 2025 09:49:03 +0000</pubDate>
+            <updated>Tue, 08 Apr 2025 10:39:03 +0000</updated>
+            <media:content url="https://www.pugpig.com/gallery/7005256214/1.jpg" type="image/jpeg" height="600"
+                width="1000">
+                <media:description>
+                    <![CDATA[ Lorem ipsum dolor sit amet phasellus lobortis duis habitant aliquam montes mattis parturient vitae dapibus ]]>
+                </media:description>
+                <media:credit role="author">RWI Photography</media:credit>
+            </media:content>
+            <media:content url="https://www.pugpig.com/gallery/7005256214/2.jpg" type="image/jpeg" height="600"
+                width="1000">
+                <media:description>
+                    <![CDATA[ Lorem ipsum dolor sit amet phasellus lobortis duis habitant aliquam montes mattis parturient vitae dapibus ]]>
+                </media:description>
+                <media:credit role="author">RWI Photography</media:credit>
+            </media:content>
+            <media:content url="https://www.pugpig.com/gallery/7005256214/3.jpg" type="image/jpeg" height="600"
+                width="1000">
+                <media:description>
+                    <![CDATA[ Lorem ipsum dolor sit amet phasellus lobortis duis habitant aliquam montes mattis parturient vitae dapibus ]]>
+                </media:description>
+                <media:credit role="author">RWI Photography</media:credit>
+            </media:content>
+            <media:content url="https://www.pugpig.com/gallery/7005256214/4.jpg" type="image/jpeg" height="600"
+                width="1000">
+                <media:description>
+                    <![CDATA[ Lorem ipsum dolor sit amet phasellus lobortis duis habitant aliquam montes mattis parturient vitae dapibus ]]>
+                </media:description>
+                <media:credit role="author">RWI Photography</media:credit>
+            </media:content>
+            <media:content url="https://www.pugpig.com/gallery/7005256214/5.jpg" type="image/jpeg" height="600"
+                width="1000">
+                <media:description>
+                    <![CDATA[ Lorem ipsum dolor sit amet phasellus lobortis duis habitant aliquam montes mattis parturient vitae dapibus ]]>
+                </media:description>
+                <media:credit role="author">RWI Photography</media:credit>
+            </media:content>
+        </item>
+    </channel>
+</rss>
